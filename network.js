@@ -5,7 +5,7 @@ export default {
     'LikeCoin is a network of independent parallel blockchains, powered by BFT consensus algorithms like Tendermint.',
   logo: `logo.svg`,
   website: 'https://like.co',
-  apiURL: 'https://likeapi.anwensf.com', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
+  apiURL: 'https://likeapi.anwensf.com/proxy', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
   rpcURL: 'ws://116.207.131.37:36657',
   stakingDenom: 'MUON',
   coinLookup: [
