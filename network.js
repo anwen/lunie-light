@@ -5,10 +5,10 @@ export default {
     'LikeCoin is a Decentralized Publishing Infrastructure for Decentralized Archive, Decentralized Rewards, Decentralized Curation and Decentralized Governance.',
   logo: `logo.svg`,
   website: 'https://like.co',
-  apiURL: 'https://mainnet-node.like.co', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
-  // apiURL: 'https://likeapi.anwensf.com/proxy',
-  rpcURL: 'ws://mainnet-node.like.co:26657',
-  // rpcURL: 'ws://116.207.131.37:36657',
+  // apiURL: 'https://mainnet-node.like.co', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
+  apiURL: 'https://likeapi.anwensf.com/proxy',
+  // rpcURL: 'ws://mainnet-node.like.co:26657',
+  rpcURL: 'ws://116.207.131.37:36657',
   stakingDenom: 'LIKE',
   coinLookup: [
     {
